@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
         <div>
             <a href="https://www.linkedin.com/in/mizanur-rahman-66b806248/" target="_blank" rel="noopener noreferrer">
-            <img src="../../Ecommerce_Frontend_final/Images/LinkedIn.jpeg" alt="LinkedIn" className='footer-image'/>
+            <img src="../../Ecommerce_Frontend_final/Images/linkedin.jpeg" alt="linkedin" className='footer-image'/>
             </a>
           
         </div>
