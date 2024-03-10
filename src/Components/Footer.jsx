@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='footer_header'>
+     <div className='footer_header'>
     <div className='footer'>
       <div className='footer-item'>
         <div className='item-1'>Terms & Conditions</div>
@@ -49,7 +49,7 @@ const Footer = () => {
 
     </div>
     <div className='copyright'>
-      <p>&copy; 2023 Ecommerce</p>
+      <p>&copy; 2023 Ecommerce </p>
       
     </div>
     </div>
