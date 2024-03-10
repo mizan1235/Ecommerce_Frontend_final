@@ -42,7 +42,7 @@ const HomeCard = () => {
               history('/filtered-product')
             }} >
                 <div className="item-element">
-                    <img src="../images/grocery.webp" alt="E" />
+                    <img src="../../Ecommerce_Frontend_final/images/grocery.webp" alt="E" />
                 </div>
                 <div className="item-element" >Grocery</div>
 
@@ -52,7 +52,7 @@ const HomeCard = () => {
               history('/filtered-product')
             }}>
                 <div className="item-element">
-                    <img src="../Images/mobile.webp" alt="" />
+                    <img src="../../Ecommerce_Frontend_final/Images/mobile.webp" alt="" />
                 </div>
                 <div className="item-element">Mobile</div>
             </div>
@@ -61,7 +61,7 @@ const HomeCard = () => {
               history('/filtered-product')
             }}>
             <div className="item-element">
-                    <img src="../Images/fashion.webp" alt="" />
+                    <img src="../../Ecommerce_Frontend_final/Images/fashion.webp" alt="" />
                 </div>
                 <div className="item-element">Fashion</div>
             </div>
@@ -70,7 +70,7 @@ const HomeCard = () => {
               history('/filtered-product')
             }}>
             <div className="item-element">
-                    <img src="../Images/electronics.webp" alt="" />
+                    <img src="../../Ecommerce_Frontend_final/Images/electronics.webp" alt="" />
                 </div>
                 <div className="item-element">Electronics</div>
             </div>
@@ -78,7 +78,7 @@ const HomeCard = () => {
               setFilteredType('Home_Furniture')
               history('/filtered-product')
             }}><div className="item-element">
-                    <img src="../Images/furniture.webp" alt="" />
+                    <img src="../../Ecommerce_Frontend_final/Images/furniture.webp" alt="" />
                 </div>
                 <div className="item-element">Home & Furniture</div></div>
             <div className="item-type" onClick={(e)=>{
@@ -86,7 +86,7 @@ const HomeCard = () => {
               history('/filtered-product')
             }}>
             <div className="item-element">
-                    <img src="../Images/beauty,toys.webp" alt="" />
+                    <img src="../../Ecommerce_Frontend_final/Images/beauty,toys.webp" alt="" />
                 </div>
                 <div className="item-element">Beauty,Toys & More</div>
             </div>
@@ -95,7 +95,7 @@ const HomeCard = () => {
               history('/filtered-product')
             }}>
             <div className="item-element">
-                    <img src="../Images/jewellery.webp" alt="" />
+                    <img src="../../Ecommerce_Frontend_final/Images/jewellery.webp" alt="" />
                 </div>
                 <div className="item-element">Jewellery</div>
             </div>
