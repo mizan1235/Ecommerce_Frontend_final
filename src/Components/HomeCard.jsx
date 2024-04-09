@@ -14,7 +14,7 @@ const HomeCard = () => {
    const[searchInput,setSearchInput]=useRecoilState(searchInputAtom)
    const history=useNavigate()
    useEffect(()=>{
-    fetch('https://ecommercebackendfinal-production.up.railway.app/Mizan/get_all_products', {
+    fetch('https://web-production-0533e.up.railway.app/Mizan/get_all_products', {
       method: "GET",
               headers: {
                 'Content-Type': "application/json",
@@ -126,7 +126,7 @@ const HomeCard = () => {
            <div className='item-details'>
            
             {/* {<img className='image' src = {data?.} alt={data?.company_name}/>} */}
-            {<img className='image' src = {'https://ecommercebackendfinal-production.up.railway.app/media/'+data?.image} alt='Error'/>}
+            {<img className='image' src = {'https://web-production-0533e.up.railway.app/media/'+data?.image} alt='Error'/>}
            
            </div>
             <div className="item-details">

@@ -15,7 +15,7 @@ const DetailCard = () => {
             <div className="detail-product">
                 <div className="detail-element">
                     <div className="detailed-image">
-                        <img src={'https://ecommercebackendfinal-production.up.railway.app/media/' + detailedProduct?.image} alt='Error' />
+                        <img src={'https://web-production-0533e.up.railway.app/media/' + detailedProduct?.image} alt='Error' />
                     </div>
                     <div className="detailed-card">
                         <div className="buy" 
@@ -31,7 +31,7 @@ const DetailCard = () => {
                                 product_id: detailedProduct?.id
                             }
                             console.log(data)
-                            fetch('https://ecommercebackendfinal-production.up.railway.app/Mizan/create_card', {
+                            fetch('https://web-production-0533e.up.railway.app/Mizan/create_card', {
                                 method: "POST",
                                 headers: {
                                     'Content-Type': "application/json",

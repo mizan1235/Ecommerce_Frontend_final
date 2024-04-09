@@ -19,7 +19,7 @@ const FilteredProducedCard = () => {
    }
 
     useEffect(()=>{
-        fetch('https://ecommercebackendfinal-production.up.railway.app/Mizan/get_product_category',
+        fetch('https://web-production-0533e.up.railway.app/Mizan/get_product_category',
     {
       method:"POST",
       headers:{
@@ -63,7 +63,7 @@ const FilteredProducedCard = () => {
     <div className='item-details'>
     
      {/* {<img className='image' src = {data?.} alt={data?.company_name}/>} */}
-     {<img className='image' src = {'https://ecommercebackendfinal-production.up.railway.app/media/'+data?.image} alt='Error'/>}
+     {<img className='image' src = {'https://web-production-0533e.up.railway.app/media/'+data?.image} alt='Error'/>}
     
     </div>
      <div className="item-details">

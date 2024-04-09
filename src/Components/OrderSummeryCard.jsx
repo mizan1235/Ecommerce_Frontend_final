@@ -16,7 +16,7 @@ const OrderSummeryCard = () => {
     const confirmOrder=(e)=>{
         e.preventDefault();
 
-        fetch('https://ecommercebackendfinal-production.up.railway.app/Mizan/create_order', {
+        fetch('https://web-production-0533e.up.railway.app/Mizan/create_order', {
             method: "POST",
             headers: {
               'Content-Type': "application/json",
@@ -40,7 +40,7 @@ const OrderSummeryCard = () => {
         <div className="summery-container">
             <div className="summery-item">
                 <div className="summery-element">
-                    <img src={'https://ecommercebackendfinal-production.up.railway.app/media/'+detailedProduct?.image} alt="Error" />
+                    <img src={'https://web-production-0533e.up.railway.app/media/'+detailedProduct?.image} alt="Error" />
                 </div>
                 <div className="summery-element"><h3>{detailedProduct?.title}</h3></div>
                 <div className="summery-element"> <h3>&#8377;{detailedProduct?.price}</h3></div>

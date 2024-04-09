@@ -10,7 +10,7 @@ const UserProfileCard = () => {
     const [userData,setUserData]=useState([])
     
       useEffect(()=>{
-        fetch('https://ecommercebackendfinal-production.up.railway.app/Mizan/get_order', {
+        fetch('https://web-production-0533e.up.railway.app/Mizan/get_order', {
       method: "POST",
       headers: {
         'Content-Type': "application/json",
@@ -31,7 +31,7 @@ const UserProfileCard = () => {
     },[])
 
     useEffect(()=>{
-        fetch('https://ecommercebackendfinal-production.up.railway.app/Mizan/get_user', {
+        fetch('https://web-production-0533e.up.railway.app/Mizan/get_user', {
       method: "POST",
       headers: {
         'Content-Type': "application/json",

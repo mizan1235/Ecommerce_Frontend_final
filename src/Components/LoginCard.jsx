@@ -19,7 +19,7 @@ const LoginCard = () => {
       email:emailRef?.current?.value,
       password:passwordRef?.current?.value
     }
-    fetch('https://ecommercebackendfinal-production.up.railway.app/Mizan/login_user',
+    fetch('https://web-production-0533e.up.railway.app/Mizan/login_user',
     {
       method:"POST",
       headers:{

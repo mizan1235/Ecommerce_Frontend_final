@@ -24,7 +24,7 @@ const RegisterCard = () => {
       
     };
     
-    fetch('https://ecommercebackendfinal-production.up.railway.app/Mizan/create_user', {
+    fetch('https://web-production-0533e.up.railway.app/Mizan/create_user', {
       method: "POST",
       headers: {
         'Content-Type': "application/json",

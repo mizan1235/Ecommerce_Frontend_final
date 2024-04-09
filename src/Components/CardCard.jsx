@@ -9,7 +9,7 @@ const CardCard = () => {
   const [cardProducts, setCardProducts] = useState([]);
 
   useEffect(() => {
-    fetch('https://ecommercebackendfinal-production.up.railway.app/Mizan/get_card', {
+    fetch('https://web-production-0533e.up.railway.app/Mizan/get_card', {
       method: "POST",
       headers: {
         'Content-Type': "application/json",
@@ -35,7 +35,7 @@ const CardCard = () => {
     const fetchCardProducts = async () => {
       const products = await Promise.all(
         cardData?.map((data) => {
-          return fetch('https://ecommercebackendfinal-production.up.railway.app/Mizan/get_card_product', {
+          return fetch('https://web-production-0533e.up.railway.app/Mizan/get_card_product', {
             method: "POST",
             headers: {
               'Content-Type': "application/json",
@@ -65,7 +65,7 @@ const CardCard = () => {
           <div className="detail-product">
             <div className="detail-element">
               <div className="detailed-image">
-                <img src={'https://ecommercebackendfinal-production.up.railway.app/media/' + product?.image} alt='Error' />
+                <img src={'https://web-production-0533e.up.railway.app/media/' + product?.image} alt='Error' />
               </div>
               <div className="detailed-card">
                 <div className="buy"><Link to='/buy-now'>Buy Now</Link></div>
@@ -77,7 +77,7 @@ const CardCard = () => {
                   const item={
                     product_id:product?.id
                   }
-                  fetch('https://ecommercebackendfinal-production.up.railway.app/Mizan/remove_card', {
+                  fetch('https://web-production-0533e.up.railway.app/Mizan/remove_card', {
                     method: "DELETE",
                     headers: {
                       'Content-Type': "application/json",

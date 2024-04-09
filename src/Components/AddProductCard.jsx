@@ -11,7 +11,7 @@ const AddProductCard = () => {
     const [desc,setDesc]=useState()
     const [status, setstatus] = useState('')
    
-    let api = 'https://ecommercebackendfinal-production.up.railway.app/Mizan/api'
+    let api = 'https://web-production-0533e.up.railway.app/Mizan/api'
    
     const saveFile = (e) =>{
       e.preventDefault()
